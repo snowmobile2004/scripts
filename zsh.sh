@@ -6,4 +6,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/zsh-syn
 curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zshrc > ~/.zshrc
 curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/fishy.zsh-theme | tee ~/.oh-my-zsh/themes/fishy.zsh-theme
 curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zsh_aliases > ~/.zsh_aliases
-curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zshrc > ~/.zshrc
+mkdir ~/bin
+curl https://raw.githubusercontent.com/snowmobile2004/scripts/master/z.sh > ~/bin/z.sh
