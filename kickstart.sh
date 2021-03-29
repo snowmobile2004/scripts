@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo apt install -y zsh
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o install.sh
 chmod +x install.sh
 bash ./install.sh --unattended
 chsh -s /bin/zsh snow
