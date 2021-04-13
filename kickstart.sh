@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 sudo apt update
-sudo apt upgrade -y
-sudo apt install -y zsh
+sudo apt upgrade -y && sudo apt install -y zsh
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o install.sh
 chmod +x install.sh
 bash ./install.sh --unattended
