@@ -11,4 +11,4 @@ curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zsh_alias
 mkdir ~/bin
 curl https://raw.githubusercontent.com/snowmobile2004/scripts/master/z.sh > ~/bin/z.sh
 echo 'Acquire { HTTP::proxy "http://10.0.5.20:3142"; HTTPS::proxy "http://10.0.5.20:3142"; }' | tee /etc/apt/apt.conf.d/proxy
-exit 0
+exit
