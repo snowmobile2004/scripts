@@ -12,4 +12,8 @@ curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zsh_alias
 mkdir ~/bin
 curl https://raw.githubusercontent.com/snowmobile2004/scripts/master/z.sh > ~/bin/z.sh
 echo 'Acquire { HTTP::proxy "http://10.0.5.20:3142"; HTTPS::proxy "http://10.0.5.20:3142"; }' | tee /etc/apt/apt.conf.d/proxy
+echo Initial Kickstart Completed
+curl -fsSL https://github.com/snowmobile2004/scripts/install-docker.sh -o install-docker.sh
+chmod +x install-docker.sh
+bash ./install-docker.sh
 exit
