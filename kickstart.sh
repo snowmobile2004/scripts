@@ -6,6 +6,7 @@ chmod +x install.sh
 bash ./install.sh --unattended
 chsh -s /bin/zsh snow
 chsh -s /bin/zsh root
+mkdir /home/snow/bin
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/zsh-syntax-highlighting
 curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zshrc > ~/.zshrc
 curl https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/fishy.zsh-theme | tee ~/.oh-my-zsh/themes/fishy.zsh-theme
