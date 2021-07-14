@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 sudo apt update
 sudo apt upgrade -y && sudo apt install -y zsh
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o install.sh
-chmod +x install.sh
-bash ./install.sh --unattended
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 chsh -s /bin/zsh snow
 chsh -s /bin/zsh root
 git clone https://github.com/snowmobile2004/bin.git | ~/bin
