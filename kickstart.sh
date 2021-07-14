@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 sudo apt update
 sudo apt upgrade -y && sudo apt install -y zsh
+ZSH="/home/snow/.oh-my-zsh" sh install.sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 chsh -s /bin/zsh snow
 chsh -s /bin/zsh root
