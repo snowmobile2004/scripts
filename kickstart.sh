@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 sudo apt update
 sudo apt upgrade -y && sudo apt install -y zsh
-curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -o ./home/snow/install.sh
-chmod +x ./home/snow/install.sh
-ZSH="/home/snow/.oh-my-zsh" sh /home/snow/install.sh
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+chmod +x install.sh
+ZSH="/home/snow/.oh-my-zsh" sh install.sh
 bash ./home/snow/install.sh --unattended
 chsh -s /bin/zsh snow
 chsh -s /bin/zsh root
