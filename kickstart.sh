@@ -3,8 +3,7 @@ sudo apt update
 sudo apt upgrade -y && sudo apt install -y zsh
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sudo chmod +x install.sh
-ZSH="/home/snow/.oh-my-zsh" sh install.sh
-bash install.sh --unattended
+sh install.sh --unattended
 sudo chsh -s /bin/zsh snow
 sudo chsh -s /bin/zsh root
 git clone https://github.com/snowmobile2004/bin.git | ~/bin
