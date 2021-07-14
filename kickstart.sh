@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 sudo apt update
 sudo apt upgrade -y && sudo apt install -y zsh
-curl https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | /home/snow/install.sh
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 ZSH="/home/snow/.oh-my-zsh" sh install.sh
 chsh -s /bin/zsh snow
 chsh -s /bin/zsh root
