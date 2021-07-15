@@ -3,9 +3,9 @@
 # exit if required variables aren't set
 set -o nounset
 
-# only run on host gate
-if [ "$(hostname)" != "gate" ]; then
-  echo "This script should only be run on gate."
+# only run on host Desktop-Snow
+if [ "$(hostname)" != "Desktop-Snow" ]; then
+  echo "This script should only be run on Desktop-Snow."
   exit 1
 fi
 
