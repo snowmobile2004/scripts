@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo apt update
-sudo apt upgrade -y && sudo apt install -y zsh
+sudo apt upgrade -y && sudo apt install -y zsh direnv
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 git clone https://github.com/snowmobile2004/bin.git | ~/bin
 sudo chsh -s /bin/zsh snow
