@@ -9,7 +9,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/zsh-syntax-
 curl -fsSL https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zshrc > ~/.zshrc
 curl -fsSL https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/fishy.zsh-theme | sudo tee ~/.oh-my-zsh/themes/fishy.zsh-theme
 curl -fsSL https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zsh_aliases > ~/.zsh_aliases
-curl -fsSL https://raw.githubusercontent.com/snowmobile2004/scripts/master/z.sh > /home/snow/bin/z.sh
+curl -fsSL https://raw.githubusercontent.com/snowmobile2004/scripts/master/z.sh > ~/bin/z.sh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/zsh-syntax-highlighting
 curl -fsSL https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/.zshrc > ~/.zshrc
 curl -fsSL https://raw.githubusercontent.com/snowmobile2004/dotfiles/master/fishy.zsh-theme | sudo tee /home/snow/.oh-my-zsh/themes/fishy.zsh-theme
