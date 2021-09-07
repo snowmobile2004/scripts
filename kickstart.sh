@@ -19,6 +19,6 @@ echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAmBe/xpoI6waS6VtOCUGi6pJsJ3zcljvsMjo+ti
 git config --global user.name "Josh Green"
 git config --global user.email "greenjosh6499@gmail.com"
 sudo rm -f install.sh
-sudo rm -f kickstart.sh
+sudo rm -f kickstart.sh 
 echo Initial Kickstart Completed
 exit
