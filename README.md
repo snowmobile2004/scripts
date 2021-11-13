@@ -13,3 +13,9 @@ To install Docker, run:
 ```
 sh -c "$(curl -fsSL https://raw.github.com/snowmobile2004/scripts/master/install-docker.sh)"
 ```
+
+To install GitHub CLI, run:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/snowmobile2004/scripts/master/install-gh.sh)"
+```
