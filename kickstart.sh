@@ -18,5 +18,6 @@ git config --global user.email "greenjosh6499@gmail.com"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/snowmobile2004/scripts/master/install-gh.sh)"
 sudo rm -f install.sh
 sudo rm -f kickstart.sh 
+gh auth login --email greenjosh6499@gmail.com
 echo Initial Kickstart Completed
 exit
