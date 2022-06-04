@@ -1,4 +1,4 @@
-[![Shell-Linter](https://github.com/snowmobile2004/scripts/actions/workflows/shell-linter.yml/badge.svg)](https://github.com/snowmobile2004/scripts/actions/workflows/shell-linter.yml)
+[![Shell Linter](https://github.com/snowmobile2004/scripts/actions/workflows/shell-linter.yml/badge.svg)](https://github.com/snowmobile2004/scripts/actions/workflows/shell-linter.yml)
 # scripts
 
 SnowLab Repo for various scripts
