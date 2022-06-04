@@ -1,3 +1,4 @@
+[![ShellCheck](https://github.com/snowmobile2004/scripts/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/snowmobile2004/scripts/actions/workflows/shellcheck.yml)
 # scripts
 
 SnowLab Repo for various scripts
