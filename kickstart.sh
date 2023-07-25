@@ -46,8 +46,6 @@ sudo rm -f kickstart.sh
 
 echo "Initial Kickstart Completed, please login to GitHub"
 
-echo "Initial Kickstart Completed, please login to GitHub"
 gh auth login -w
-
 
 exit
