@@ -9,17 +9,6 @@ elif [ "$prompt" = "n" ] || [ "$prompt" = "N" ] || [ "$prompt" = "no" ] || [ "$p
 else
     echo "Invalid input. Please enter 'y' or 'n'."
     exit 1
-#!/bin/sh
-
-read -r -p "Setup APT Proxy? <y/n> " prompt
-if [ "$prompt" = "y" ] || [ "$prompt" = "Y" ] || [ "$prompt" = "yes" ] || [ "$prompt" = "Yes" ]; then
-    echo 'Acquire { HTTP::proxy "http://10.0.5.20:3142"; HTTPS::proxy "http://10.0.5.20:3142"; }' | sudo tee /etc/apt/apt.conf.d/proxy
-    echo "Added APT proxy to /etc/apt/apt.conf.d"
-elif [ "$prompt" = "n" ] || [ "$prompt" = "N" ] || [ "$prompt" = "no" ] || [ "$prompt" = "No" ]; then
-    echo "No APT proxy will be set up."
-else
-    echo "Invalid input. Please enter 'y' or 'n'."
-    exit 1
 fi
 
 
