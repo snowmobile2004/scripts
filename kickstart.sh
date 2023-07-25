@@ -5,6 +5,12 @@ then
 msg_info "Adding APT proxy to /etc/apt.conf.d"
 echo 'Acquire { HTTP::proxy "http://10.0.5.20:3142"; HTTPS::proxy "http://10.0.5.20:3142"; }' | sudo tee /etc/apt/apt.conf.d/proxy
 msg_ok "Added APT proxy to /etc/apt.conf.d"
+elif [[ $prompt == "n" || $prompt == "N" || $prompt == "no" || $prompt == "No" ]]
+then
+    msg_info "No APT proxy will be set up."
+else
+    msg_error "Invalid input. Please enter 'y' or 'n'."
+    exit 1
 fi
 sudo apt update
 sudo apt upgrade -y && sudo apt install -y zsh direnv unzip
